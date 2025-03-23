@@ -1,0 +1,29 @@
+.main
+{
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 500px)
+{
+  .main
+  {
+    background-color: aqua;
+  }
+}
+
+@media (min-width:501px) and (max-width: 800px)
+{
+  .main
+  {
+    background-color: rgb(0, 68, 255);
+  }
+}
+
+@media (min-width:801px)
+{
+  .main
+  {
+    background-color: rgb(255, 200, 0);
+  }
+}
