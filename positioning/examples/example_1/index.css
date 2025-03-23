@@ -1,0 +1,41 @@
+.box
+{
+  height: 300px;
+  width: 500px;
+}
+
+.circle
+{
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+
+.red-bg
+{
+  background-color: red;
+}
+
+.blue-bg
+{
+  background-color: blue;
+}
+
+.black-border
+{
+  border: 2px solid black;
+}
+
+.main-box-pos
+{
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+.main-circle-pos
+{
+  position: absolute;
+  top: 250px;
+  left: 250px;
+}
